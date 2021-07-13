@@ -14,9 +14,8 @@ Todos los codes que tenemos disponibles se encuentran disponibles en la capeta *
 
 <img src="https://cdn.discordapp.com/emojis/864313776051191848.png?v=1" width="25px"> [**Cointor**](https://www.cointor.cf/) - Fundador, Representante, Programador y Editor
 
-[**⋆⁎✩⋆𝕊𝕒𝕤𝕦𝕜𝕖 𝕦𝕔𝕙𝕚𝕙𝕒☆。***]() - Programador 
-
-## Versión 0.1.0 📌
-
-uwu
-*uwu*
+<img src="https://cdn.discordapp.com/emojis/855647909671075880.png?v=1" width="25px"> **⋆⁎✩⋆𝕊𝕒𝕤𝕦𝕜𝕖 𝕦𝕔𝕙𝕚𝕙𝕒☆。*** - Programador 
+## Versión 0.0.1 📌
+- Se inicia el proyecto 
+- Se crea el README.md
+- Bot en fase Beta
