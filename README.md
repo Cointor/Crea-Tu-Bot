@@ -1,4 +1,4 @@
-# Crea Tu Bot <img src="https://cdn.discordapp.com/emojis/862427801368657951.png?v=1" width="35px">
+# <img src="https://cdn.discordapp.com/emojis/862427801368657951.png?v=1" width="35px"> Crea Tu Bot
 Un lugar en el cual podrás aprender a crear tu propio bot para tu servidor de una manera totalmente fácil.
 
 ![download](https://images-ext-2.discordapp.net/external/2mry8hPVctRcPOzkPp14FSo7NOAeg5egEMlVn6vG6-E/%3Fwidth%3D410%26height%3D106/https/media.discordapp.net/attachments/850641948804513802/862575004531818506/Banner1.png)
