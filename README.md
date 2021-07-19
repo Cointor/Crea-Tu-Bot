@@ -12,9 +12,6 @@ Todos los codes que tenemos disponibles se encuentran disponibles en la capeta *
 
 ## Colaboradores <img src="https://cdn.discordapp.com/emojis/811074607456452640.png?v=1" width="25px">
 
-<img src="https://cdn.discordapp.com/emojis/864313776051191848.png?v=1" width="25px"> [**Cointor**](https://www.cointor.cf/) - Fundador, Programador y Editor
+<img src="https://cdn.discordapp.com/emojis/864313776051191848.png?v=1" width="25px"> [**Cointor**](https://www.cointor.cf/) - Fundador, Lider, Programador y Editor
 
-## Versión 0.0.1 📌
-- Se inicia el proyecto 
-- Se crea el README.md
-- Bot en fase Beta
+<img src="https://images-ext-2.discordapp.net/external/sgtzZyL4bed2huv4972xevf0YHtYWNmu6aWq7AccVj0/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/753769842506727504/a_9d45ca9f9337189b37897003fb9ce4be.gif" width="25px"> **⋆⁎✩⋆𝕊𝕒𝕤𝕦𝕜𝕖 𝕦𝕔𝕙𝕚𝕙𝕒☆。*** - Lider y Programador
