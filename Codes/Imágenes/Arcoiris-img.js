@@ -1,5 +1,8 @@
 // Con este comando le pondrás un Arcoíris 🌈  al Avatar de un mencionado o al que use el comando
 
+client.on("message", message => {
+if(message.author.bot) return;
+if (message.content.startsWith("Comando")) { 
 const marsnpm = require("marsnpm"); // NPM que nos permite hacerlo
 message.channel.startTyping();
 setTimeout(() => {
@@ -10,3 +13,5 @@ let avatar = userm.displayAvatarURL({dynamic: false, format: 'png', size: 2048})
 let imagen = await marsnpm.rainbow(avatar); 
 let rainbow = new Discord.MessageAttachment(imagen, "rainbow.png") 
 message.channel.send(rainbow); // Mandamos el Mensaje
+}
+});
