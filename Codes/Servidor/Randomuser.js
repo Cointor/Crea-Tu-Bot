@@ -1,5 +1,5 @@
   
- client.on("message", message => {
+ client.on("message", async message => {
  if(message.author.bot) return; 
  if (message.content.startsWith("Comando")) { 
 let member = message.guild.members.cache.filter(m => m.user != m.user.bot).random();
