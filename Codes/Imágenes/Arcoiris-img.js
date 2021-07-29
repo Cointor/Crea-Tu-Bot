@@ -1,6 +1,6 @@
 // Con este comando le pondrás un Arcoíris 🌈  al Avatar de un mencionado o al que use el comando
 
-client.on("message", message => {
+client.on("message", async message => {
 if(message.author.bot) return;
 if (message.content.startsWith("Comando")) { 
 const marsnpm = require("marsnpm"); // NPM que nos permite hacerlo
