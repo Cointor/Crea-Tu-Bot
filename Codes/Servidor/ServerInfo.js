@@ -1,5 +1,5 @@
   
- client.on("message", message => {
+ client.on("message", async message => {
  if(message.author.bot) return; 
  if (message.content.startsWith("Comando")) { 
 let servericon = message.guild.iconURL;
