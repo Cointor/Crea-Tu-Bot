@@ -1,6 +1,6 @@
 // Un Comando de basura con el Avatar, Ejemplo: https://media.discordapp.net/attachments/850469128988000286/866475294335434793/basura.png?width=335&height=406
 
-client.on("message", message => {
+client.on("message", async message => {
 if(message.author.bot) return;
 if (message.content.startsWith("Comando")) { 
 const marsnpm = require("marsnpm"); 
