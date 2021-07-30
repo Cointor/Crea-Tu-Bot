@@ -1,13 +1,12 @@
-  
- client.on("message", message => {
- if(message.author.bot) return; 
- if (message.content.startsWith("Comando")) { 
-if(!message) return message.channel.send('No hay ningun mensaje editado.');
+const { MessageEmbed } = require('discord.js')
 
-    const embed = new Discord.MessageEmbed()
-    .setAuthor(message.author)
-    .setDescription(`**Canal:** ${message.channel} \n **Mensaje Antiguo:** ${message.oldmessage} \n **Mensaje Nuevo:** ${message.newmessage}`)
-    .setColor("#000")
-    message.channel.send(embed);
-} 
+client.on("messageUpdate", (old, new) => {
+  if (old.author.bot) return;
+  if (old.content == new.content) return;
+  if (!new.guild || !new.member) return;
+  const embed = new MessageEmbed()
+  .setAuthor(new.member.displayName, new.author.displayAvatarURL({ dynamic: true }))
+  .setDescription(`**Canal:** ${new.channel.toString()} \n **Mensaje Antiguo:** ${old.content} \n **Mensaje Nuevo:** ${new.content}`)
+  .setColor("#000")
+  new.channel.send(embed)
 });
