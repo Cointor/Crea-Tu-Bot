@@ -1,0 +1,24 @@
+{
+  "name": "bots-examples",
+  "version": "1.0.0",
+  "description": "Example bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i && node ."
+  },
+  "dependencies": {
+    "discord.js": "12.5.3",
+    "dotenv": "^10.0.0",
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/cointor/crea-Tu-Bot/"
+  },
+  "keywords": [
+    "bot",
+    "discord-bot",
+    "example"
+  ],
+  "author": "",
+  "license": "ISC"
+}
