@@ -1,6 +1,8 @@
 // Un Comando con el cual podrás buscar aplicaciones de la Apple Store
 
 client.on('message', async message => {
+      const args = message.content.trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
 if(message.author.bot) return;
 const AppleStore = require("app-store-scraper"); // NPM que nos permitira axceder a la Apple Store desde Discord
 if (message.content.startsWith("!hola")) { // Comando, Si colocas !hola respondera "Hola"
