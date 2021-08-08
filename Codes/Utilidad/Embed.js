@@ -1,7 +1,7 @@
  client.on("message", async message => {
  if(message.author.bot) return; 
 if (message.content.startsWith("Comando")) { 
-const embed= new Discord.MessageEmbed() 
+const embed = new Discord.MessageEmbed() 
 .setTitle("Titulo, Soporta 256 caracteres") 
 .setAuthor(message.author.username, message.author.displayAvatarURL()) 
 .setColor("#6064f4") // Aqui es un Color Hex, lo puedes cambiar. 
