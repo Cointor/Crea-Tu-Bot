@@ -1,4 +1,4 @@
- client.on("message", async message => {
+client.on("message", async message => {
  if(message.author.bot) return; 
  if (message.content.startsWith("Comando")) { 
 const args = message.content.trim().split(/ +/g);
@@ -10,5 +10,6 @@ message.channel.clone().then((canal) => {
 message.channel.delete()
 canal.setPosition(posicion)
 canal.send("**Canal nukeado**", nuke)
-} 
+}) 
+}
 });
