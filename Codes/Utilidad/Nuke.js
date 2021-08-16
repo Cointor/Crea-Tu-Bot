@@ -11,5 +11,4 @@ message.channel.delete()
 canal.setPosition(posicion)
 canal.send("**Canal nukeado**", nuke)
 } 
-}
 });
