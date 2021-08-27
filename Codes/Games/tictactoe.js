@@ -1,4 +1,5 @@
- client.on("message", async message => {
+// Creditos: Se lo robe a sasuke :D 
+client.on("message", async message => {
  if(message.author.bot) return; 
  if (message.content.startsWith("Comando")) { 
 const ttt0 = message.member
