@@ -1,4 +1,4 @@
-// Creditos: Se lo robe a sasuke :D 
+// Creditos: Se lo robe a sasuke :D Mau me dijo de poner el code
 client.on("message", async message => {
  if(message.author.bot) return; 
  if (message.content.startsWith("Comando")) { 
@@ -8,8 +8,8 @@ const ttt0 = message.member
 			if(ttt0.id === ttt1.id)return message.channel.send("No puedes jugar contra ti mismo.");
 			if(ttt1.bot)return message.channel.send("No puedes jugar contra un bot");
 
-			const pish0 = "<a:x_:818591165611638896> "
-			const pish1 = "<a:o_:818591108652204065> "
+			const pish0 = ":red_circle: "
+			const pish1 = ":blue_circle: "
             
 
 			let turn = 0
