@@ -14,6 +14,7 @@
         .setColor("#ecb244")
         .setFooter("Datos sobre la moneda brindados por CoinMarketCap")
         .setThumbnail("https://media.discordapp.net/attachments/763118472573222992/806667600310435880/Zcash-ZEC-icon.png?width=409&height=409")
+        message.channel.send(embed)
     }).catch(err => {
         console.log(err)
     })
